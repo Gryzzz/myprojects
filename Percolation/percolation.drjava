@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20140826-r5761">
+  <project autorefresh="false" main="Percolation" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="Percolation.java" package="" timestamp="08-Jan-2017 22:49:36">
+        <select from="176" to="176"/>
+        <scroll column="4" row="0"/>
+      </file>
+      <file name="PercolationStats.java" package="" timestamp="08-Jan-2017 22:49:41">
+        <select from="176" to="176"/>
+        <scroll column="4" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="algs4.jar"/>
+      <file absolute="false" name="PercolationStats.java"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
