@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>StarryNightGame</title>
+    <link rel="stylesheet" href="css/CanvasGame.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+	
+<body id="body">
+	
+    <div id="container">
+    	<div>
+    		<h1 id="header">Starry Night</h1>
+    	</div>
+    	<div>
+    		<h4>Click on as many sprites as you can before time runs out!
+			<br>
+			Little bee is the fastest one, so you'll get 3 points for it.</h4>
+    	</div>
+		<div id = "userInfo">
+		<i class="material-icons">grade</i><div class="bottom fx" id="score">
+        </div>
+       	<i class="material-icons">timer</i><div class="bottom fx" id="timeLeft">
+        </div>
+			<i class="material-icons" id = "replay" onclick = "newGame()" > replay</i>
+		</div>
+		
+        <canvas class="fx" id="canvas" width="800" height="500">
+            <!-- Insert fallback content here -->
+        </canvas>
+    </div>
+	<script src="js/utilities.js"></script>
+    <script src="js/program8.js"></script>
+</body>
+</html>

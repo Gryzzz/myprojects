@@ -1,0 +1,225 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Draggable Example 01</title>
+    <style>
+        #pzlOne {
+            float: left;
+            width: 200px;
+            height: 133px;
+            background-image: url('images/1.jpg');
+        }
+
+        #pzlTwo {
+            float: left;
+            width: 200px;
+            height: 133px;
+            background-image: url('images/2.jpg');
+        }
+
+        #pzlThree {
+            float: left;
+            width: 200px;
+            height: 133px;
+            background-image: url('images/3.jpg');
+        }
+
+        #pzlFour {
+            float: left;
+            width: 200px;
+            height: 133px;
+            background-image: url('images/4.jpg');
+        }
+
+        #pzlFive {
+            float: left;
+            width: 200px;
+            height: 133px;
+            background-image: url('images/5.jpg');
+        }
+
+        #pzlSix {
+            float: left;
+            width: 200px;
+            height: 133px;
+            background-image: url('images/6.jpg');
+        }
+
+        #pzlSeven {
+            float: left;
+            width: 200px;
+            height: 133px;
+            background-image: url('images/7.jpg');
+        }
+
+        #pzlEight {
+            float: left;
+            width: 200px;
+            height: 133px;
+            background-image: url('images/8.jpg');
+        }
+
+        #pzlNine {
+            float: left;
+            width: 200px;
+            height: 133px;
+            background-image: url('images/9.jpg');
+        }
+
+        #dropOne, #dropTwo, #dropThree, #dropFour, #dropFive, #dropSix, #dropSeven, #dropEight, #dropNine {
+            float: right;
+            width: 200px;
+            height: 133px;
+            border: 1px solid #999;
+        }
+
+        #pzlImg {
+            float: left;
+        }
+
+        #dropImg {
+            float: right;
+        }
+    </style>
+
+    <!--<script type="text/style" src="style.css"></script>-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+
+        //This code is from an awesome online tutorial about dragging with jQuery ui
+        //http://www.elated.com/articles/drag-and-drop-with-jquery-your-essential-guide/#events
+
+        $(init);
+
+        function init() {
+            $('#pzlOne').draggable();
+            $('#pzlTwo').draggable();
+            $('#pzlThree').draggable();
+            $('#pzlFour').draggable();
+            $('#pzlFive').draggable();
+            $('#pzlSix').draggable();
+            $('#pzlSeven').draggable();
+            $('#pzlEight').draggable();
+            $('#pzlNine').draggable();
+            $('#dropOne, #dropTwo, #dropThree, #dropFour,#dropFive, #dropSix, #dropSeven, #dropEight, #dropNine').droppable({
+                drop: handleDropEvent
+            });
+            //$("#dropImg").droppable({
+            //    drop: handleDropEvent
+            //});
+        }
+
+        function handleDropEvent(event, ui) {
+            var draggable = ui.draggable;
+            var droppableId = $(this).attr('name')
+            var imgId = draggable.attr('id');
+            //var imgClass = droppable.attr('id');
+            if (imgId == droppableId) {
+                alert('Correct! The square with ID "' + draggable.attr('id') + '" was dropped onto me!');
+            }
+        }
+
+</script>
+
+</head>
+<body>
+
+    <div class="wideBox">
+        <h1>Hit Detection Example</h1>
+    </div>
+
+    <div id="content" style="height: 400px;">
+        <table id="pzlImg">
+            <tr>
+
+                <th>
+                    <div id="pzlFive"></div>
+                </th>
+                <th>
+                    <div id="pzlTwo"></div>
+                </th>
+                <th>
+                    <div id="pzlSix"></div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div id="pzlSeven"></div>
+                </th>
+                <th>
+
+
+                    <div id="pzlOne"></div>
+                </th>
+                <th>
+                    <div id="pzlNine"></div>
+                </th>
+            </tr>
+            <tr>
+
+                <th>
+                    <div id="pzlFour"></div>
+                </th>
+                <th>
+                    <div id="pzlEight"></div>
+                </th>
+                <th>
+
+                    <div id="pzlThree"></div>
+                </th>
+            </tr>
+        </table>
+        <table id="dropImg">
+            <tr>
+                <th>
+                    <div id="dropOne" name="pzlOne"></div>
+                </th>
+                <th>
+                    <div id="dropTwo" name="pzlTwo"></div>
+                </th>
+                <th>
+                    <div id="dropThree" name="pzlThree"></div>
+                </th>
+
+
+
+            </tr>
+            <tr>
+                <th>
+                    <div id="dropFour" name="pzlFour"></div>
+                </th>
+                <th>
+                    <div id="dropFive" name="pzlFive"></div>
+                </th>
+                <th>
+                    <div id="dropSix" name="pzlSix"></div>
+                </th>
+
+
+
+            </tr>
+            <tr>
+                <th>
+                    <div id="dropSeven" name="pzlSeven"></div>
+                </th>
+                <th>
+                    <div id="dropEight" name="pzlEight"></div>
+                </th>
+                <th>
+                    <div id="dropNine" name="pzlNine"></div>
+                </th>
+
+
+
+            </tr>
+        </table>
+
+
+
+    </div>
+
+</body>
+</html>
