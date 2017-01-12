@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="TaniaL.V._DVD.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel ="stylesheet" type ="text/css" href ="StyleSheet1.css" /> 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+   
+
+    </asp:ContentPlaceHolder>
+</head>
+<div id="whole">
+<body>
+    <form id="form1" runat="server">
+    <h2 id="dvdrus">DVDs r Us</h2>
+     <!--Menu-->
+    <div class="Menu">
+    <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+      EnableViewState="False" IncludeStyleBlock="False" 
+      StaticSubMenuIndent="16px">
+      <Items>
+         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home" />
+         <asp:MenuItem NavigateUrl="Login.aspx" Text="AdminLogin"/>
+      </Items> 
+      <StaticItemTemplate>
+         <img src="../../images/smallstar.png"   alt="+" width="20" height="20" style="border-width: 0;"  id="myIcon" />
+         <%# Eval("Text") %>
+      </StaticItemTemplate>
+
+</asp:Menu>
+
+<asp:Menu ID="AdminMenu" runat="server" CssClass="menu" 
+      EnableViewState="False" IncludeStyleBlock="False" 
+
+      StaticSubMenuIndent="16px">
+      <Items>
+         <asp:MenuItem NavigateUrl="~/Admin/Reports.aspx" Text="Reports"/>
+        <asp:MenuItem NavigateUrl="~/Admin/AddDVD.aspx" Text="Add DVD"/>
+         <asp:MenuItem NavigateUrl="~/Admin/EditDVD.aspx" Text="Edit DVD"/>
+
+      </Items> 
+      <StaticItemTemplate>
+         <img src="../../images/smallstar.png"   alt="+" width="20" height="20" style="border-width: 0;"  id="myIcon" />
+         <%# Eval("Text") %>
+      </StaticItemTemplate>
+
+</asp:Menu>
+</div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <footer>
+    <h3 id="copyright">Copyright TaniaLV 2013</h3>
+    </footer>
+    </form>
+</body>
+</div>
+</html>

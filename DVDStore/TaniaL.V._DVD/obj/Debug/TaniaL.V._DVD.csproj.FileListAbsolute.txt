@@ -1,0 +1,70 @@
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment5_DVD\TaniaL.V._DVD\TaniaL.V._DVD\bin\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment5_DVD\TaniaL.V._DVD\TaniaL.V._DVD\bin\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment5_DVD\TaniaL.V._DVD\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment5_DVD\TaniaL.V._DVD\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment5_DVD\TaniaL.V._DVD\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.csprojResolveAssemblyReference.cache
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment5_DVD\TaniaL.V._DVDdb\TaniaL.V._DVD\bin\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment5_DVD\TaniaL.V._DVDdb\TaniaL.V._DVD\bin\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment5_DVD\TaniaL.V._DVDdb\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.csprojResolveAssemblyReference.cache
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment5_DVD\TaniaL.V._DVDdb\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment5_DVD\TaniaL.V._DVDdb\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment9 EditDVD - Copy\TaniaL.V._DVDdb\TaniaL.V._DVD\bin\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment9 EditDVD - Copy\TaniaL.V._DVDdb\TaniaL.V._DVD\bin\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment9 EditDVD - Copy\TaniaL.V._DVDdb\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.csprojResolveAssemblyReference.cache
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment9 EditDVD - Copy\TaniaL.V._DVDdb\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\assignment9 EditDVD - Copy\TaniaL.V._DVDdb\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\Assignment 10\TaniaL.V._DVDdbEditAndDelete\TaniaL.V._DVD\bin\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\Assignment 10\TaniaL.V._DVDdbEditAndDelete\TaniaL.V._DVD\bin\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\Assignment 10\TaniaL.V._DVDdbEditAndDelete\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.csprojResolveAssemblyReference.cache
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\Assignment 10\TaniaL.V._DVDdbEditAndDelete\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\Assignment 10\TaniaL.V._DVDdbEditAndDelete\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 11\TaniaL.V._DVDAdd\TaniaL.V._DVD\bin\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 11\TaniaL.V._DVDAdd\TaniaL.V._DVD\bin\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 11\TaniaL.V._DVDAdd\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.csprojResolveAssemblyReference.cache
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 11\TaniaL.V._DVDAdd\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 11\TaniaL.V._DVDAdd\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.pdb
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDAdd\TaniaL.V._DVD\bin\TaniaL.V._DVD.dll
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDAdd\TaniaL.V._DVD\bin\TaniaL.V._DVD.pdb
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDAdd\TaniaL.V._DVD\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDAdd\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.dll
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDAdd\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.pdb
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDValidation\TaniaL.V._DVD\bin\TaniaL.V._DVD.dll
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDValidation\TaniaL.V._DVD\bin\TaniaL.V._DVD.pdb
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDValidation\TaniaL.V._DVD\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDValidation\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.dll
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDValidation\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.pdb
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDValidation May29\TaniaL.V._DVD\bin\TaniaL.V._DVD.dll
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDValidation May29\TaniaL.V._DVD\bin\TaniaL.V._DVD.pdb
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDValidation May29\TaniaL.V._DVD\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDValidation May29\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.dll
+C:\Users\vendrovska\PROG117 drafts\myworks\TaniaL.V._DVDValidation May29\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 12\TaniaL.V._DVDPassword\TaniaL.V._DVD\bin\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 12\TaniaL.V._DVDPassword\TaniaL.V._DVD\bin\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 12\TaniaL.V._DVDPassword\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.csprojResolveAssemblyReference.cache
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 12\TaniaL.V._DVDPassword\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 12\TaniaL.V._DVDPassword\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 12\TaniaL.V._DVDPassword 1st step\TaniaL.V._DVD\bin\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 12\TaniaL.V._DVDPassword 1st step\TaniaL.V._DVD\bin\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 12\TaniaL.V._DVDPassword 1st step\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.csprojResolveAssemblyReference.cache
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 12\TaniaL.V._DVDPassword 1st step\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\ASSIGNMENT 12\TaniaL.V._DVDPassword 1st step\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.pdb
+C:\Users\vendrovska\PROG117 drafts\CLASS FILES\JUNE 3\TaniaL.V._DVD Login\TaniaL.V._DVD\bin\TaniaL.V._DVD.dll
+C:\Users\vendrovska\PROG117 drafts\CLASS FILES\JUNE 3\TaniaL.V._DVD Login\TaniaL.V._DVD\bin\TaniaL.V._DVD.pdb
+C:\Users\vendrovska\PROG117 drafts\CLASS FILES\JUNE 3\TaniaL.V._DVD Login\TaniaL.V._DVD\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\vendrovska\PROG117 drafts\CLASS FILES\JUNE 3\TaniaL.V._DVD Login\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.dll
+C:\Users\vendrovska\PROG117 drafts\CLASS FILES\JUNE 3\TaniaL.V._DVD Login\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\LAST MONDAY PROJECT\TaniaL.V._DVD customers\TaniaL.V._DVD\bin\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\LAST MONDAY PROJECT\TaniaL.V._DVD customers\TaniaL.V._DVD\bin\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\LAST MONDAY PROJECT\TaniaL.V._DVD customers\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.csprojResolveAssemblyReference.cache
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\LAST MONDAY PROJECT\TaniaL.V._DVD customers\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\LAST MONDAY PROJECT\TaniaL.V._DVD customers\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.pdb
+C:\Users\vendrovska\PROG117 drafts\CLASS FILES\JUNE 5 DVD\TaniaL.V._DVD customers\TaniaL.V._DVD\bin\TaniaL.V._DVD.dll
+C:\Users\vendrovska\PROG117 drafts\CLASS FILES\JUNE 5 DVD\TaniaL.V._DVD customers\TaniaL.V._DVD\bin\TaniaL.V._DVD.pdb
+C:\Users\vendrovska\PROG117 drafts\CLASS FILES\JUNE 5 DVD\TaniaL.V._DVD customers\TaniaL.V._DVD\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\vendrovska\PROG117 drafts\CLASS FILES\JUNE 5 DVD\TaniaL.V._DVD customers\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.dll
+C:\Users\vendrovska\PROG117 drafts\CLASS FILES\JUNE 5 DVD\TaniaL.V._DVD customers\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\LAST MONDAY PROJECT\JUE 5\TaniaL.V._DVD customers\TaniaL.V._DVD\bin\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\LAST MONDAY PROJECT\JUE 5\TaniaL.V._DVD customers\TaniaL.V._DVD\bin\TaniaL.V._DVD.pdb
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\LAST MONDAY PROJECT\JUE 5\TaniaL.V._DVD customers\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.csprojResolveAssemblyReference.cache
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\LAST MONDAY PROJECT\JUE 5\TaniaL.V._DVD customers\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.dll
+C:\Users\Tania\Desktop\college\SPRING 2013\PROG 117\HW\LAST MONDAY PROJECT\JUE 5\TaniaL.V._DVD customers\TaniaL.V._DVD\obj\Debug\TaniaL.V._DVD.pdb
