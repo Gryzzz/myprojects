@@ -1,0 +1,18 @@
+﻿
+<div ng-controller="ShowController">
+    <div ng-show="isVisible()">
+        <div id="recipeImage">
+            <!--<img check-image id="rcpImageID" onerror="imgError(this);" ng-src="{{current.recipe.PictureUrl}}"/>-->
+            <img check-image ng-src="{{current.recipe.PictureUrl}}" alt="Recipe image"
+                 onerror="if (this.src != '/Content/Images/foodGif.jpg') this.src = '/Content/Images/foodGif.jpg';"/>
+        </div>
+        <a href="mailto:?Subject=Take a look on this cool recipe! {{current.recipe.Title}}&Body={{current.recipe.Ingridients}}%0A{{current.recipe.Description}}">Email this to a friend</a>
+        <div id="recipeContent">
+            <p>{{current.recipe.Title}}</p>
+            <p>{{current.recipe.Type}}</p>
+            <p>{{current.recipe.Ingridients}}</p>
+            <p>{{current.recipe.Description}}</p>
+        </div>
+    </div>
+
+</div>

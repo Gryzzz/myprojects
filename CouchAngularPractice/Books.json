@@ -1,0 +1,22 @@
+{
+"docs": [
+    {
+        "name": "Moommin",
+        "author":"Tove Jansson",
+        "ISBN":"111111"
+
+    },
+    {
+        "name": "Lamb",
+        "author":"Christopher Moore",
+        "ISBN":"222222"
+
+    },
+    {
+        "name": "The Metamorphosis",
+        "author":"Franz Kafka",
+        "ISBN":"222222"
+
+    }
+]
+}

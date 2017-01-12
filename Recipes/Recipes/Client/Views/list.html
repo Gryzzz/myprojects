@@ -1,0 +1,55 @@
+﻿<script>
+    function imgError(image) {
+        image.onerror = "";
+        image.src = "/Content/Images/foodGif.jpg";
+        return true;
+    }
+
+    $(document).ready(function () {
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#scrollup').fadeIn();
+            } else {
+                $('#scrollup').fadeOut();
+            }
+        });
+
+        $('#scrollup').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 700);
+            return false;
+        });
+
+    });
+</script>
+<div ng-controller="ListController" id="listCtrlDiv">
+
+    <!--<button class="btn btn-default" ng-click="create()"> + Create</button>-->
+    <a href="#/edit/createNew" id="createbtnId">+Create</a>
+    <div ng-include="'/Client/views/details.html'" id="detailsDivId">
+    </div>
+
+    <div id="threeDots">
+        <i class="fa fa-circle-o"></i>
+        <i class="fa fa-circle-o"></i>
+        <i class="fa fa-circle-o"></i>
+    </div>
+    <!--<div ng-include="'/Client/views/edit.html'"> </div>-->
+
+
+    <div id="allRecipesContainer">
+        <div ng-repeat="recipe in recipes" id="allRecipes">
+            <div id="snglRecipe_{{recipe.Id}}">
+                <button class="fa fa-spoon fa-lg" title="View" ng-click="show(recipe)"></button>
+                <p>{{recipe.Title}}</p>
+                <a href="#/details/{{recipe.Id}}">How to cook!</a>
+                <button class="fa fa-trash" title="Delete" ng-click="delete(recipe)" id="deleteRcpBtn"></button>
+                <a href="#/edit/{{recipe.Id}}" id="editLink">Edit</a>
+            </div>
+        </div>
+        <a href="#" class="fa fa-angle-double-up fa-5x" id="scrollup"></a>
+    </div>
+</div>
+

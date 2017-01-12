@@ -1,0 +1,9 @@
+C:\Users\vendr_000\Desktop\Tania\COLLEGE\SPRING 2015\ISIT 420\VS\Tania_QueryCube\Tania_QueryCube\bin\Debug\Tania_QueryCube.exe.config
+C:\Users\vendr_000\Desktop\Tania\COLLEGE\SPRING 2015\ISIT 420\VS\Tania_QueryCube\Tania_QueryCube\bin\Debug\Tania_QueryCube.exe
+C:\Users\vendr_000\Desktop\Tania\COLLEGE\SPRING 2015\ISIT 420\VS\Tania_QueryCube\Tania_QueryCube\bin\Debug\Tania_QueryCube.pdb
+C:\Users\vendr_000\Desktop\Tania\COLLEGE\SPRING 2015\ISIT 420\VS\Tania_QueryCube\Tania_QueryCube\obj\Debug\Tania_QueryCube.Form1.resources
+C:\Users\vendr_000\Desktop\Tania\COLLEGE\SPRING 2015\ISIT 420\VS\Tania_QueryCube\Tania_QueryCube\obj\Debug\Tania_QueryCube.Properties.Resources.resources
+C:\Users\vendr_000\Desktop\Tania\COLLEGE\SPRING 2015\ISIT 420\VS\Tania_QueryCube\Tania_QueryCube\obj\Debug\Tania_QueryCube.csproj.GenerateResource.Cache
+C:\Users\vendr_000\Desktop\Tania\COLLEGE\SPRING 2015\ISIT 420\VS\Tania_QueryCube\Tania_QueryCube\obj\Debug\Tania_QueryCube.exe
+C:\Users\vendr_000\Desktop\Tania\COLLEGE\SPRING 2015\ISIT 420\VS\Tania_QueryCube\Tania_QueryCube\obj\Debug\Tania_QueryCube.pdb
+C:\Users\vendr_000\Desktop\Tania\COLLEGE\SPRING 2015\ISIT 420\VS\Tania_QueryCube\Tania_QueryCube\obj\Debug\Tania_QueryCube.csprojResolveAssemblyReference.cache

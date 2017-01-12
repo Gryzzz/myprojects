@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  p#debug
+  p#positionX
+  p#positionY
+  p#positionZ
+  div
+   <canvas id="myCanvas" width="200" height="200" style="border:3px solid black; position:absolute; top:1%; right:1%;"></canvas>
+  input#myInput(autocomplete='off')
+  button#chatButton Chat
+  

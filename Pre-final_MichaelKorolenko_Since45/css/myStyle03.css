@@ -1,0 +1,283 @@
+﻿html {
+    color: #FCFAED;
+    height: 100%;
+    background-color: black;
+}
+
+.pageFrame {
+    -webkit-box-shadow: inset 0 0 20px 10px #ABCFFF;
+    box-shadow: inset 0 0 20px 10px #ABCFFF;
+
+    width: 84%;
+    position: absolute;
+    left: 7%;
+    top: 20%;
+    border-radius: 4px;
+    z-index: 1;
+    min-height:50%;
+}
+
+a:hover {
+    color: #FEFFFA;
+    text-shadow: 0 0 10px #FEFFFA;
+}
+
+#links2 a:hover {
+    color: #FEFFFA;
+    text-shadow: 0 0 10px #FEFFFA;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    min-width: 800px;
+    background: #8cddfe; /* Old browsers */
+    background: -moz-linear-gradient(top, #8cddfe 0%, #748fdd 20%, #4469d3 40%, #180533 62%, #000000 85%, #000000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8cddfe), color-stop(20%,#748fdd), color-stop(40%,#4469d3), color-stop(62%,#180533), color-stop(85%,#000000), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #8cddfe 0%,#748fdd 20%,#4469d3 40%,#180533 62%,#000000 85%,#000000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #8cddfe 0%,#748fdd 20%,#4469d3 40%,#180533 62%,#000000 85%,#000000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #8cddfe 0%,#748fdd 20%,#4469d3 40%,#180533 62%,#000000 85%,#000000 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #8cddfe 0%,#748fdd 20%,#4469d3 40%,#180533 62%,#000000 85%,#000000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cddfe', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+#s45Home {
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    width: 50%;
+}
+
+#myMenu {
+    padding-right: 40%;
+    position: fixed;
+    top: 3%;
+    left: 20%;
+    min-width: 800px;
+}
+
+    #myMenu li {
+        padding-right: 70px;
+        padding-top: -10px;
+        font-size: 2em;
+    }
+
+.doorRow {
+    position: absolute;
+    left: 18%;
+    top: 33%;
+    max-width: 90%;
+}
+
+.homeDoors img {
+    width: 9%;
+    border-radius: 5px;
+    margin-right: 2%;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 4px 3px 20px rgba(38, 88, 255, 1);
+    font-family: 'Amatic-Bold';
+    font-size: 32px;
+}
+
+li {
+    display: inline;
+}
+
+video, #youTubeVideo1, #youTubeVideo2 {
+    padding-left: 25%;
+}
+
+p, h1 {
+    align-self: center;
+    color: #FCFAED;
+    font-size: 18px;
+    padding-left: 10%;
+    font-family: 'Cinzel';
+}
+#contactPage {
+    
+font-family:Arial;
+}
+#contactEmail {
+font-family:Arial;
+font-size:initial;
+}
+
+#addressIcon, #emailIcon, #phoneIcon {
+position:absolute;
+    left: 5%;
+    border-radius:10px;
+
+}
+#emailSection, #phoneSection, #addressSection {
+    /*position: absolute;
+    left: 0%;*/ 
+    text-align:center;
+    padding:3%;
+}
+#contactId {
+    position: absolute;
+    right: 4%;
+    left: 15%;
+    /*width: 50%;
+    height: 40%;*/
+    padding-left: 20%;
+}
+
+#contactImg {
+    position: absolute;
+    left: 4%;
+    padding:20px;
+    /*clear:both;
+    float:right;*/
+    /*padding-right:20%;*/
+    border-radius: 5px;
+}
+
+@font-face {
+    font-family: "After-Shok";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/After-Shok/After_Shok.ttf");
+}
+
+@font-face {
+    font-family: "Brushstroke-Plain";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/BRUSHSTP.ttf");
+}
+
+@font-face {
+    font-family: "Blokletters-Balpen";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/Blokletters-Balpen.ttf");
+}
+
+@font-face {
+    font-family: "Action-Man";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/Action_Man.ttf");
+}
+
+@font-face {
+    font-family: "Amatic-Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/Amatic-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/Cinzel-Black.otf");
+}
+
+.textVideo {
+    width: 600px;
+    float: right;
+    padding-right: 100px;
+}
+
+.videoMaker {
+    float: left;
+    padding-left: 20px;
+}
+
+/*css for courusel slide show*/
+example-desc {
+    margin: 3px 0;
+    padding: 5px;
+}
+
+#carousel {
+    width: 100%;
+    height: 100%;
+    clear: both;
+    overflow: hidden;
+}
+
+    #carousel img {
+        visibility: hidden; /* hide images until carousel can handle them */
+        cursor: pointer; /* otherwise it's not as obvious items can be clicked */
+    }
+
+
+.split-left {
+    width: 450px;
+    float: left;
+}
+
+.split-right {
+    width: 400px;
+    float: left;
+    margin-left: 10px;
+}
+
+#callback-output {
+    height: 250px;
+    overflow: scroll;
+}
+
+textarea#newoptions {
+    width: 430px;
+}
+/*css for courusel slide show*/
+
+/*css for the crew page*/
+.navigation {
+    position: absolute;
+    /*max-width: 100%;
+    max-height: 70%;*/
+    /*margin: 0 auto;*/
+    left: 20%;
+    right:19%;
+    bottom: 18%;
+    /*padding: 555px 15px 25px 15px;*/
+    /*background-color: #87CEEB;*/
+    /*-webkit-box-shadow: 0px 0px 60px 60px #87CEEB;
+    box-shadow: 0px 0px 60px 60px #87CEEB;*/
+    /*/-webkit-box-shadow: inset 0 0 20px 10px #ABCFFF;
+    box-shadow: inset 0 0 20px 10px #ABCFFF;*/
+}
+    .navigation img {
+    padding:2.5%;
+    /*padding-left:2%;
+    padding-top:10%;*/
+    
+    -webkit-box-shadow: inset 0 0 10px 10px #ABCFFF;
+    box-shadow: inset 0 0 10px 10px #ABCFFF;*
+    }
+
+.thumb {
+    padding: 5px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+/*css for the crew page*/
+/*css for the link page*/
+#linksPhoto {
+    left: 25%;
+    bottom: 20%;
+    padding-left: 25%;
+    padding-top: 5%;
+}
+
+#links2 {
+    color: #FCFAED;
+    font-family: 'Amatic-Bold';
+    font-size: 30px;
+    padding-left: 5%;
+}
+    #links2 a
+    {font-size:90%;
+    }

@@ -1,0 +1,57 @@
+#sideImg1, #sideImg2{position:absolute;
+top:130px;
+left:20px;
+width:400px;
+height:270px;
+}
+
+#woodId{position:absolute;
+top:130px;
+left:20px;
+width:400px;}
+
+#answersId {position:absolute;
+top:220px;
+left:500px;
+font-size:14px;
+}
+#question{position:absolute;
+top:120px;
+left:500px;
+font-size:16px;
+width:500px;
+margin-bottom:20px;
+
+}
+input {
+padding:20px;
+
+}
+#myButtons{position:absolute;
+top:550px;
+left:350px;
+}
+#contentId {
+
+border-style:solid;
+border-width:3px;
+width:1000px;
+height:600px;
+background-image:url('macro/pattern3.jpg');
+}
+#questionNum {
+position:absolute;
+top:385px;
+left:210px;
+    width:25px;
+    border-style:solid;
+    border-width:2px;
+    text-align:center;
+    border-radius:3px;
+
+}
+
+h1 {
+
+text-align:center;
+}

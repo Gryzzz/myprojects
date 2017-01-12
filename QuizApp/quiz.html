@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="jquery-1.11.0.min.js"></script>
+    <title>Quiz</title>
+</head>
+<body>
+    <div id="contentId">
+    <img src="macro/11.jpg" alt="bug image" id="sideImg2">
+    <img src="macro/1.jpg" alt="bug image" id="sideImg1">
+    <form action="" id="answersId">
+        <input type="radio" name="answer" value="answer1" id="answ1">
+        <label for="answer1" id="lbl1">answer1lbl</label>
+        <br>
+        <input type="radio" name="answer" value="answer2" id="answ2">
+        <label for="answer2" id="lbl2">answer2lbl</label>
+        <br>
+        <input type="radio" name="answer" value="answer3" id="answ3">
+        <label for="answer3" id="lbl3">answer3lbl</label>
+        <br>
+        <p id="errorMsg">pick one answer</p>
+    </form>
+    <div id="myButtons">
+       
+        <button type="button" onclick="nextPage();" id="nextBtn">Accept</button>
+    </div>
+    <h1 >Quiz about JavaScript & JQuery</h1>
+    <hr>
+    <h2 id="question"></h2>
+    <h3 id="questionNum">1</h3>
+    </div>
+</body>
+<script src="quiz.js"></script>
+</html>

@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  p 
+    a(href='/#/databaseName') Get current Database Name and all names
+  p
+    a(href='/#/deleteDb') DeleteDb
+  p
+    a(href='/#/createDb') CreateDb
+  p
+    a(href='/#/insertNpcs') Insert Npcs
+  p
+    a(href="/#/designDoc") Design Doc
+  p
+    a(href="/view02?designDoc=gameState&view=docNpcQAs") View Q&As
+  p
+    a(href="/view02?designDoc=gameState&view=docNpcValues") View values
+  p
+    a(href="/view03?designDoc=gameState&view=docNpcs") View npcs
+  p
+
+  p {{debug}}
+
+  div
+    div(data-ng-view='')

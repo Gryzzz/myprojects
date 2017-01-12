@@ -1,0 +1,11 @@
+C:\Users\alleonov\Desktop\TANIA\Winter 2014\PROG 210\HWORKS\ManageInvoicesTaniaLeonovaV\ManageInvoicesTaniaLeonovaV\bin\Debug\ManageInvoicesTaniaLeonovaV.exe.config
+C:\Users\alleonov\Desktop\TANIA\Winter 2014\PROG 210\HWORKS\ManageInvoicesTaniaLeonovaV\ManageInvoicesTaniaLeonovaV\bin\Debug\ManageInvoicesTaniaLeonovaV.exe
+C:\Users\alleonov\Desktop\TANIA\Winter 2014\PROG 210\HWORKS\ManageInvoicesTaniaLeonovaV\ManageInvoicesTaniaLeonovaV\bin\Debug\ManageInvoicesTaniaLeonovaV.pdb
+C:\Users\alleonov\Desktop\TANIA\Winter 2014\PROG 210\HWORKS\ManageInvoicesTaniaLeonovaV\ManageInvoicesTaniaLeonovaV\bin\Debug\EntityFramework.dll
+C:\Users\alleonov\Desktop\TANIA\Winter 2014\PROG 210\HWORKS\ManageInvoicesTaniaLeonovaV\ManageInvoicesTaniaLeonovaV\bin\Debug\EntityFramework.xml
+C:\Users\alleonov\Desktop\TANIA\Winter 2014\PROG 210\HWORKS\ManageInvoicesTaniaLeonovaV\ManageInvoicesTaniaLeonovaV\obj\Debug\ManageInvoicesTaniaLeonovaV.Form1.resources
+C:\Users\alleonov\Desktop\TANIA\Winter 2014\PROG 210\HWORKS\ManageInvoicesTaniaLeonovaV\ManageInvoicesTaniaLeonovaV\obj\Debug\ManageInvoicesTaniaLeonovaV.Properties.Resources.resources
+C:\Users\alleonov\Desktop\TANIA\Winter 2014\PROG 210\HWORKS\ManageInvoicesTaniaLeonovaV\ManageInvoicesTaniaLeonovaV\obj\Debug\ManageInvoicesTaniaLeonovaV.csproj.GenerateResource.Cache
+C:\Users\alleonov\Desktop\TANIA\Winter 2014\PROG 210\HWORKS\ManageInvoicesTaniaLeonovaV\ManageInvoicesTaniaLeonovaV\obj\Debug\ManageInvoicesTaniaLeonovaV.exe
+C:\Users\alleonov\Desktop\TANIA\Winter 2014\PROG 210\HWORKS\ManageInvoicesTaniaLeonovaV\ManageInvoicesTaniaLeonovaV\obj\Debug\ManageInvoicesTaniaLeonovaV.pdb
+C:\Users\alleonov\Desktop\TANIA\Winter 2014\PROG 210\HWORKS\ManageInvoicesTaniaLeonovaV\ManageInvoicesTaniaLeonovaV\obj\Debug\ManageInvoicesTaniaLeonovaV.csprojResolveAssemblyReference.cache

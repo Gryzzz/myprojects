@@ -1,0 +1,20 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Time Bomb Panic</title>
+<link rel="stylesheet" type="text/css" href="../css/mazeGameCss.css">
+<!-- The canvas -->
+<canvas width="768" height="512"></canvas>
+<div id="Won"></div>
+           
+<!-- The game code-->
+<script src="requestAnimationFramePolyfill.js"></script>
+<script src="../src/objects.js"></script>
+<script src="../src/collision.js"></script>
+<script src="../src/timeBombPanic.js"></script>
+
+<div id="startGame">
+<h1>Welcome to Maze Escape!</h1>
+Defuse all bombs, then grab the key to unlock the door and escape.
+But hurry - you only have 30 seconds!
+<button type="button" onclick="mainGameFunction()">START</button>
+</div>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Color Picker</title>
+<link rel="stylesheet" href="ColorPickerStyleSheet.css">
+</head>
+
+<body>
+<article id="ardicleID">
+
+ <h1 id="header1Text"> <strong> CSS Color Displayer </strong> </h1>
+ <h3 id="header2Text"> Select a number from 0 to 255 for each color value: </h3>
+ <table id="myTable">
+ <tr>
+ <td>Red: <br /> <input type="text" name="redNum" id="redBox"> </td>
+ <td>Green: <br /> <input type="text" name="greenNum" id="greenBox"></td>
+ <td>Blue: <br /> <input type="text" name="blueNum" id="blueBox"> </td>
+ </tr>
+ <button id="showColorBtn" >Show me the color! </button>
+ <button id="clearBtn" >Clear all </button>
+ <tr id="colorBar"></tr>
+ </table>
+ <h3 id="myHex"> Hexadecimal: </h3>
+ <h3 id="hexValue"></h3>
+</article>
+</body>
+<script src="ColorPickerCode.js"> </script>
+</html>

@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="fullPagePlugin/jquery.fullPage.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <!-- This following line is needed in case of using the default easing option or when using another
+ one rather than "linear" or "swing". You can also add the full jQuery UI instead of this file if you prefer -->
+    <script src="vendors/jquery.easings.min.js"></script>
+
+
+    <!-- This following line needed in the case of setting the plugin option `scrollOverflow` to `true` -->
+    <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+
+    <script type="text/javascript" src="fullPagePlugin/jquery.fullPage.js"></script>
+    <title>since45</title>
+    <link rel="stylesheet" href="css/myStyleTania.css">
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section" data-anchor="slide1" id="aboutPage">
+            About 
+                        <p>
+                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            <br />
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            <br />
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."<br />
+                        </p>
+                  <img src="images/House of History.jpg" alt="houseOfHistory" />
+        </div>
+        <div class="section" data-anchor="slide2" id="castPage">
+            Cast
+                        <p>
+                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            <br />
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            <br />
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."<br />
+                        </p>
+
+        </div>
+        <div class="section" data-anchor="slide3" id="videoPage">
+            Video
+
+                        <p>
+                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            <br />
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            <br />
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."<br />
+                        </p>
+        </div>
+        <div class="section" id="contactPage">
+            Contact
+                        <p>
+                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            <br />
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            <br />
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            <br />
+                        </p>
+        </div>
+        <div class="section active" id="homePage">
+            Home
+                        <p>
+                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            <br />
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            <br />
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            <br />
+                        </p>
+            <img src="images/45_House-of-History.jpg" alt="houseOfHistory" />
+        </div>
+        <ul id="myMenu">
+            <li data-menuanchor="firstPage" class="active"><a href="#firstPage">About</a></li>
+            <li data-menuanchor="secondPage"><a href="#secondPage">Cast</a></li>
+            <li data-menuanchor="thirdPage"><a href="#thirdPage">Video</a></li>
+            <li data-menuanchor="fourthPage"><a href="#fourthPage">Contact</a></li>
+            <li data-menuanchor="fifthPage"><a href="#fifthPage">Home</a></li>
+        </ul>
+    </div>
+</body>
+<script>
+
+
+
+    $(document).ready(function () {
+        $('#fullpage').fullpage({
+            anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'lastPage'],
+            menu: '#myMenu',
+            moveTo: ('firstSlide', 1),
+            autoScrolling: false
+        });
+    });
+
+
+
+</script>
+</html>

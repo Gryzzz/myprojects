@@ -1,0 +1,33 @@
+extends layout
+
+block content
+
+  div#blocker(style='display: -webkit-box;')
+    div#instructions(style='')
+      span(style='font-size:40px')#level Level 1  
+      span(style='font-size:40px') Click to play  
+      p (W, A, S, D = Move, SPACE = Jump, MOUSE = Look around)
+      p Isit320_LeonovaV
+  div#message
+      p
+      strong Press Enter to hide map
+      strong CameraX: 
+      span#cameraX Foo
+      strong CameraY: 
+      span#cameraY Foo
+      strong CameraZ: 
+      span#cameraZ Foo
+      strong NPC left:
+      span#npcLeft 5 
+      
+      p -----------------------
+      strong Chat: 
+      p#gameData
+      p#question
+      
+      
+  div#gridJson 
+  div
+   <canvas id="myCanvas" width="200" height="200" style="border:3px solid black; position:absolute; top:1%; right:1%;"></canvas>
+   <canvas id="fogCanvas" width="200" height="200" style="border:3px solid black; position:absolute; top:1%; right:1%;"></canvas>
+  

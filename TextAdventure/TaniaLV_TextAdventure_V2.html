@@ -1,0 +1,390 @@
+<!doctype html>
+<title>College Adventures - 1</title>
+<link rel="stylesheet" href="TaniaLV_TextAdventure_V1.css">
+
+<body>
+    <div id="myAdventure">
+        <img src="forest.jpg" width="600" height="467" alt="myImg">
+        <p id="output"></p>
+        <input id="input" type="text" placeholder="forward, back,take, use, drop" autofocus>
+        <button id="enterBtn">Enter</button>
+        <button id="saveBtn">Save</button>
+        <button id="loadBtn">Reload the game</button>
+        <button id="clearBtn">Clear History</button>
+
+    </div>
+    <button id="mapBtn"> MAP </button>
+</body>
+<script>
+    ///creating a map
+    var map = [];
+    map[0] = "Quiet forest";
+    map[1] = "Witch's room";
+    map[2] = "Ancient fountain";
+    map[3] = "Dusty kitchen";
+    map[4] = "Laboratory";
+    map[5] = "Sunny meadow";
+    //Player's start location
+    var mapLocation = 0;
+    //set image array
+    var images = [];
+    images[0] = "forest.jpg";
+    images[1] = "room.jpg";
+    images[2] = "fountain.jpg";
+    images[3] = "kitchen.jpg";
+    images[4] = "laboratory.jpg";
+    images[5] = "meadow.jpg";
+
+    //set the blocked-path messages
+    var blockedPathMessages = [];
+    blockedPathMessages[0] = "Dark magic forest is around you..";
+    blockedPathMessages[1] = "Looks like Witch  is not here..";
+    blockedPathMessages[2] = "water is clear and cold";
+    blockedPathMessages[3] = "Sorry, no espresso. Just dried mushrooms or bat.";
+    blockedPathMessages[4] = "Laboratory..ancient scripts on the wall talk about some book and magic spell that could open a portal..";
+    blockedPathMessages[5] = "Finally. This place looks safe and friendly.";
+    blockedPathMessages[6] = "you have: ";
+    blockedPathMessages[7] = "you've just dropped: ";
+    blockedPathMessages[8] = "you can use it";
+    blockedPathMessages[9] = "Wait. First you'll have to find a way to get there!";
+    blockedPathMessages[10] = "You've opened magic portal";
+    blockedPathMessages[11] = "I can't go this way.";
+    //creating items and set their locations
+    var items = ["key", "ladder", "book"];
+    var itemLocations = [0, 3, 2];
+
+    //variables for using items
+    var keyUsed = 0;
+    var ladderUsed = 0;
+    var bookUsed = 0;
+    //an array to store items
+    var backpack = [];
+    //initialize the player's input
+    var playersInput = "";
+    //Initialize the gameMessage
+    var gameMessage = blockedPathMessages[0];
+
+    //Create an array of actions the game understands
+    //create a variable to store the current action
+    var actionIKnow = ["forward", "back", "left", "right", "take", "use", "drop"];
+    var action = "";
+    //array of items the game understands
+    var itemsIKnow = ["key", "ladder", "book"];
+    var item = "";
+    //img element 
+    var image = document.querySelector("img");
+    //the input and output fields
+    var output = document.querySelector("#output");
+    var input = document.querySelector("#input");
+    //the button
+    var button1 = document.querySelector("#enterBtn");
+    var button2 = document.querySelector("#saveBtn");
+    var button3 = document.querySelector("#loadBtn");
+    var button4 = document.querySelector("#clearBtn");
+    button1.style.cursor = "pointer";
+    button1.addEventListener("click", clickHandler, false);
+    button2.addEventListener("click", saveGame, false);
+    button3.addEventListener("click", loadHandler, false);
+    button4.addEventListener("click", clearHistory, false);
+    //display player's current location
+    //output.innerHTML=map[mapLocation];
+    //loadGame();
+    render();
+
+    function clickHandler() {
+        playGame();
+        //saveGame();
+    }
+
+    function loadHandler() {
+        loadGame();
+        render();
+    }
+
+    function clearHistory() {
+        localStorage.clear();
+    }
+
+    function playGame() {
+
+        //Get input and convert to lower-case
+        playersInput = input.value;
+        playersInput = playersInput.toLowerCase();
+
+        //reset messages from the previous turn
+        gameMessage = "";
+        action = "";
+
+        //Identify player's action
+        for (i = 0; i < actionIKnow.length; i++) {
+            if (playersInput.indexOf(actionIKnow[i]) !== -1) {
+                action = actionIKnow[i];
+                console.log("player's action: " + action);
+                //alert("action is " + action);
+                break;
+            }
+        }
+        //what item player wants
+        for (i = 0; i < itemsIKnow.length; i++) {
+            if (playersInput.indexOf(itemsIKnow[i]) !== -1) {
+                item = itemsIKnow[i];
+                //alert("item is"+item);
+                console.log("player's item: " + item);
+            }
+        }
+
+        //Choose the correct action
+        switch (action) {
+            //GOING FORWARD
+            case "forward":
+
+                if (mapLocation == 0 && keyUsed == 1) {
+                    mapLocation = 1;
+
+                    gameMessage = blockedPathMessages[mapLocation];
+
+                } else if (mapLocation == 0 && keyUsed == 0) {
+                    mapLocation = 0;
+                    gameMessage = blockedPathMessages[9];
+
+                } else if (mapLocation == 4 && bookUsed == 0) {
+                    mapLocation = 4;
+
+                    gameMessage = blockedPathMessages[9];
+                } else if (mapLocation == 4 && bookUsed == 1) {
+                    mapLocation = 5;
+
+                    gameMessage = blockedPathMessages[mapLocation];
+                }
+
+                break;
+                ///GOING BACK	
+            case "back":
+                if (mapLocation == 5) {
+                    mapLocation = 4;
+
+                    gameMessage = blockedPathMessages[mapLocation + 6];
+                } else if (mapLocation == 1) {
+                    mapLocation = 0;
+
+                    gameMessage = blockedPathMessages[mapLocation];
+                } else {
+                    gameMessage = blockedPathMessages[11];
+                }
+                break;
+                //GOING LEFT
+            case "left":
+                if (mapLocation == 0) {
+                    mapLocation = 2;
+                    gameMessage = blockedPathMessages[mapLocation];
+                } else if (mapLocation == 1) {
+                    mapLocation = 3;
+
+                    gameMessage = blockedPathMessages[mapLocation];
+                } else if (mapLocation == 4) {
+                    mapLocation = 1;
+
+                    gameMessage = blockedPathMessages[mapLocation];
+                } else {
+                    gameMessage = blockedPathMessages[11];
+                }
+                break;
+                ///GOING RIGHT
+            case "right":
+                if (mapLocation == 1 && ladderUsed == 1) {
+                    mapLocation = 4;
+
+                    gameMessage = bookUsed == 0 ? blockedPathMessages[mapLocation] : blockedPathMessages[mapLocation + 6];
+                } else if (mapLocation == 1 && ladderUsed == 0) {
+                    mapLocation = 1;
+
+                    gameMessage = blockedPathMessages[9];
+                } else if (mapLocation == 2) {
+                    mapLocation = 0;
+
+                    gameMessage = blockedPathMessages[mapLocation];
+                } else if (mapLocation == 3) {
+                    mapLocation = 1;
+
+                    gameMessage = blockedPathMessages[mapLocation];
+                } else {
+                    gameMessage = blockedPathMessages[11];
+                }
+                break;
+                //TAKE ITEM
+            case "take":
+                {
+                    takeItem();
+                    break;
+                }
+            case "drop":
+                {
+                    dropItem();
+                    break
+                }
+            case "use":
+                {
+                    useItem();
+                    break;
+                }
+            default:
+                gameMessage = "Sorry, I can't do this.";
+        }
+        //render the game
+        render();
+
+    }
+
+    function takeItem() {
+        //find the index num of the item in the items array
+        var itemIndexNumber = items.indexOf(item);
+        //check if item exists in the game and current location
+        if (itemIndexNumber !== -1 && itemLocations[itemIndexNumber] == mapLocation) {
+            gameMessage = "You take the " + item + ".";
+            //Add to backpack
+            backpack.push(item);
+            //remove item from the game world
+            items.splice(itemIndexNumber, 1);
+            itemLocations.splice(itemIndexNumber, 1);
+            //display in the console for testing
+            console.log("world items:" + items);
+            console.log("backpack items: " + backpack);
+
+        } else {
+            //message if user tries to take an item that isn't available.
+            gameMessage = "You can't do that.";
+        }
+    }
+
+    function dropItem() {
+        //drop only if you have an item
+        if (backpack.length !== 0) {
+            //find an item in backpack
+            var backpackIndexNumber = backpack.indexOf(item);
+            if (backpackIndexNumber !== -1) {
+                gameMessage = "You drop the " + item + ".";
+                //add item back to the game world
+                items.push(backpack[backpackIndexNumber]);
+                itemLocations.push(mapLocation);
+                //remove item from backpack
+                backpack.splice(backpackIndexNumber, 1);
+            } else {
+                //if user doesn't have an item
+                gameMessage = "You cannot do that.";
+
+            }
+        } else
+
+        {
+            //if backpack is empty
+            gameMessage = " You don't have any item. ";
+        }
+    }
+
+    function useItem() {
+        var backpackIndexNumber = backpack.indexOf(item);
+        //message in case user doesn't have the item or backpack is empty
+        if (backpackIndexNumber == -1) {
+            gameMessage = "You are not carrying it.";
+        }
+        if (backpack.length == 0) {
+            gameMessage += "Your backpack is empty.";
+        }
+        //if item is found figure out how to use it
+        if (backpackIndexNumber !== -1) {
+            switch (item) {
+                case "key":
+                    if (mapLocation == 0) {
+                        gameMessage = "the door into house is open now";
+                        keyUsed = 1;
+
+                    } else {
+                        gameMessage = "you can't use the key now";
+                    }
+                    break;
+
+                case "ladder":
+                    if (mapLocation == 1) {
+
+                        gameMessage = "Now you can go to basement";
+                        ladderUsed = 1;
+                    }
+                    break;
+                case "book":
+                    if (mapLocation == 4) {
+                        gameMessage = blockedPathMessages[mapLocation + 6];
+                        images[mapLocation] = "portal2.jpg";
+                        bookUsed = 1;
+
+                    }
+                    break;
+            }
+
+        }
+    }
+
+    function render() {
+
+        //render the location
+        output.innerHTML = map[mapLocation];
+        //change the image
+        image.src = images[mapLocation];
+
+        //Display the game message
+        output.innerHTML += "<br><em>" + gameMessage + "</em>";
+        //display  an item if there is one in this location
+        //loop through all the game items
+        for (var i = 0; i < items.length; i++)
+        //find out if there is an item at this location
+            if (mapLocation == itemLocations[i]) {
+                //Display it
+                output.innerHTML += "<br> You see a <strong>" + items[i] + "</strong> here.";
+            }
+            //Display the player's backpack contents
+        if (backpack.length !== 0) {
+            output.innerHTML += "<br> You are carrying: " + backpack.join(", ");
+        }
+    }
+
+    function saveGame() {
+
+        alert("game was saved");
+        if (typeof(Storage) !== "undefined" && localStorage !== "undefined") {
+            localStorage.setItem("mapLocation", mapLocation);
+            localStorage.setItem("keyUsed", keyUsed);
+            localStorage.setItem("bookUsed", bookUsed);
+            localStorage.setItem("ladderUsed", ladderUsed);
+            //localStorage.setItem("backpack",backpack);
+            localStorage.setItem("backpack", JSON.stringify(backpack));
+            //localStorage["backpack"]=JSON.stringify(backpack);
+            localStorage.setItem("gameMessage", gameMessage);
+            localStorage.setItem("images", JSON.stringify(images));
+            localStorage.setItem("items", JSON.stringify(items));
+            localStorage.setItem("itemLocations", JSON.stringify(itemLocations));
+        } else {
+            alert("Sorry! No Web Storage support..");
+        }
+    }
+
+    function loadGame() {
+
+        if (typeof(Storage) !== "undefined") {
+            if (localStorage.mapLocation == null) {
+                alert("you don't have any games saved");
+                return;
+            }
+            mapLocation = localStorage.mapLocation;
+            keyUsed = localStorage.keyUsed;
+            bookUsed = localStorage.bookUsed;
+            ladderUsed = localStorage.ladderUsed;
+            backpack = JSON.parse(localStorage["backpack"]);
+            gameMessage = localStorage.gameMessage;
+            images = JSON.parse(localStorage["images"]);
+            items = JSON.parse(localStorage["items"]);
+            itemLocations = JSON.parse(localStorage["itemLocations"]);
+
+        } else {
+            alert(" Sorry! No Web Storage support..");
+        }
+    }
+</script>

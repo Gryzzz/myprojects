@@ -1,40 +1,48 @@
-#container {border-color:#1F1F5C;
-border-width:5px;
-border-style:solid;
-width:1000px;
-height:1000px;
-text-align:center;
--webkit-box-shadow:inset 4px 1px 150px 100px #1F1F5C;
-box-shadow:inset 4px 1px 150px 100px #1F1F5C;
-font-family:"Arial Black", Gadget, sans-serif;
-color: #1F1F5C;}
-#canvas {background-image:url(../images/tree.png);
-margin:100px;
-margin-bottom: 0px;
-margin-top: 0px;	
-border-radius:5px;}
+#container {
+    border-color: #1F1F5C;
+    border-width: 5px;
+    border-style: solid;
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+    -webkit-box-shadow: inset 4px 1px 150px 100px #1F1F5C;
+    box-shadow: inset 4px 1px 150px 100px #1F1F5C;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #1F1F5C;
+}
+#canvas {
+    background-image: url(../images/tree.png);
+    margin: 100px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
 #score {
-	font-size: 24px;
-	display:inline;
-	margin-right:20px;
+    font-size: 24px;
+    display: inline;
+    margin-right: 20px;
 }
 #timeLeft {
-	font-size: 24px;
-	display:inline;
+    font-size: 24px;
+    display: inline;
 }
-#userInfo{
-	text-align: left;
-	margin-left:100px;
+#userInfo {
+    text-align: left;
+    margin-left: 100px;
 }
 #replay {
-float:right;
-margin-right:100px;
+    float: right;
+    margin-right: 100px;
 }
-#replay:hover{
-cursor:default;
+#replay:hover {
+    cursor: default;
 }
-i{display: inline;}
-.material-icons.md-18 { font-size: 18px; }
-
-#body{font-family:"Trebuchet MS", Helvetica, sans-serif}
-
+i {
+    display: inline;
+}
+.material-icons.md-18 {
+    font-size: 18px;
+}
+#body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif
+}

@@ -1,0 +1,77 @@
+{
+    "_id": "npcObjects",
+    "docs": [
+        {
+            "id": "000001",
+            "npc_id": 1,
+            "npc_name": "Suzie",
+            "description": "A big, sly, girl",
+            "color": "#FFFF00",
+            "value": 15,
+            "question": "Is 2 + 2 equal to 4?",
+            "answer": true,
+            "row": 1,
+            "col": 3
+        },
+        {
+            "id": "000002",
+            "npc_id": 2,
+            "npc_name": "Tom",
+            "description": "A big, sly, boy",
+            "color": "#FFFF00",
+            "value": 15,
+            "question": "Is 2 + 2 equal to 5?",
+            "answer": false,
+            "row": 3,
+            "col": 3
+        },
+                {
+            "id": "000003",
+            "npc_id": 3,
+            "npc_name": "Mary",
+            "description": "A cute, kind, girl",
+            "color": "#00FF00",
+            "value": 45,
+            "question": "Is 4 + 2 equal to 6?",
+            "answer": true,
+            "row": 7,
+            "col": 3
+        },
+                {
+            "id": "000004",
+            "npc_id": 4,
+            "npc_name": "Mike",
+            "description": "A cute, kind, boy",
+            "color": "#00FF00",
+            "value": 45,
+            "question": "Is 2 % 2 equal to 1?",
+            "answer": false,
+            "row": 5,
+            "col": 1
+        },
+                        {
+            "id": "000005",
+            "npc_id": 5,
+            "npc_name": "Jason",
+            "description": "A small, nice, boy",
+            "color": "#0000FF",
+            "value": 135,
+            "question": "Is 2 / 2 equal to 1?",
+            "answer": true,
+            "row": 9,
+            "col": 2
+        },
+                {
+            "id": "000006",
+            "npc_id": 6,
+            "npc_name": "Alice",
+            "description": "A small, nice, girl",
+            "color": "#0000FF",
+            "value": 135,
+            "question": "Is 3 - 5 equal to 5?",
+            "answer": false,
+            "row": 7,
+            "col": 4
+        }
+    ]
+}

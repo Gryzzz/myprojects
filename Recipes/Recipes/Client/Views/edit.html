@@ -1,0 +1,76 @@
+﻿<div ng-controller="EditController">
+    <form ng-show="isEditable()">
+        <fieldset>
+            <div class="form-group">
+                <label for="title">
+                    Title
+                </label>
+
+                <input id="title" type="text"
+                       ng-model="edit.recipe.Title" required
+                       class="form-control" />
+
+            </div>
+            <div class="form-group">
+                <label for="release">
+                   Type
+                </label>
+
+                <input id="release" type="text"
+                       ng-model="edit.recipe.Type"
+                       required min="1900" max="2030"
+                       class="form-control" />
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="runtime">
+                    Ingridients 
+                </label>
+
+                <textarea rows="10" cols="50" id="runtime" type="text"
+                       ng-model="edit.recipe.Ingridients"
+                       required min="0" max="500"
+                       class="form-control" />
+            </div>
+            <div class="form-group">
+
+                <label for="runtime">
+                     Description
+                </label>
+
+                <textarea rows="10" cols="50" id="runtime" type="text"
+                       ng-model="edit.recipe.Description"
+                       required min="0" max="500"
+                       class="form-control" />
+            </div>
+            <div class="form-group">
+
+                <label for="runtime">
+                    Image Source URL
+                </label>
+
+                <input id="runtime" type="text"
+                       ng-model="edit.recipe.PictureUrl"
+                       required min="0" max="500"
+                       class="form-control" />
+            </div>
+            <div id="onedrivePicker"></div>
+            <button class="btn btn-default"
+                    ng-click="save()">
+                Save
+
+            </button>
+
+            <button class="btn btn-default"
+                    ng-click="cancel()">
+                Cancel
+
+            </button>
+
+        </fieldset>
+
+    </form>
+
+</div>

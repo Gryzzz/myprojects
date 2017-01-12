@@ -1,0 +1,5 @@
+C:\Users\vendrovska\Desktop\FINAL\TaniaLeonova-Vendrovska_CarFinal\TaniaLeonova-Vendrovska_CarFinal\bin\TaniaLeonova-Vendrovska_CarFinal.dll
+C:\Users\vendrovska\Desktop\FINAL\TaniaLeonova-Vendrovska_CarFinal\TaniaLeonova-Vendrovska_CarFinal\bin\TaniaLeonova-Vendrovska_CarFinal.pdb
+C:\Users\vendrovska\Desktop\FINAL\TaniaLeonova-Vendrovska_CarFinal\TaniaLeonova-Vendrovska_CarFinal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\vendrovska\Desktop\FINAL\TaniaLeonova-Vendrovska_CarFinal\TaniaLeonova-Vendrovska_CarFinal\obj\Debug\TaniaLeonova-Vendrovska_CarFinal.dll
+C:\Users\vendrovska\Desktop\FINAL\TaniaLeonova-Vendrovska_CarFinal\TaniaLeonova-Vendrovska_CarFinal\obj\Debug\TaniaLeonova-Vendrovska_CarFinal.pdb

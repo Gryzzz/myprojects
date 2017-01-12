@@ -1,0 +1,50 @@
+/*CSS for my adventure game*/
+#myAdventure 
+	{
+      position:absolute;
+	  top:20px;
+	  left:40px;
+	  border-style: solid;
+	  border-color: black;
+	  color:#8F006B;
+	  font-size:20px;
+	  font-weight:bold;
+	  border-radius: 8px;
+	  background-image:url('scratch.jpg');
+	  }
+	  body {
+	  background-image:url('scratch.jpg');
+	  background-repeat:no-repeat;
+	}
+#input
+
+{
+background-color:#E0E0FF;
+width:170px;
+}
+#mapBtn:hover
+ { 
+ background-image:url('gameMap.jpg');
+ width:411px;
+ height:477px;
+ position:absolute;
+ top:20px;
+ left:600px;
+}
+#mapBtn 
+{
+
+ position:absolute;
+ top:20px;
+ left:600px;
+  border-radius:20px;
+}
+button {
+ border-radius:5px;
+border-style:solid;
+border-color:black;
+background-color:#E0E0FF;
+border-width:3px;
+}
+button:hover {border-color:#8F006B;}
+/*background-color:#EBEBFF; */

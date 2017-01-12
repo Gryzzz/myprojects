@@ -1,0 +1,27 @@
+﻿@section scripts {
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular-route.js"></script>
+    <script src="~/Client/Scripts/recipesApp.js"></script>
+    <script src="~/Client/Scripts/recipeService.js"></script>
+    <script src="~/Client/Scripts/ListController.js"></script>
+    <script src="~/Client/Scripts/EditController.js"></script>
+    <script src="~/Client/Scripts/ShowController.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="https://js.live.net/v5.0/OneDrive.js" id="onedrive-js" client-id="000000004C1739CE"></script>
+<!--    <script src="~/Scripts/jquery-1.10.2.min.js"></script>-->
+
+    <script src="~/Client/Scripts/WookmarkPluginMin.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            jQuery('#allRecipes div').wookmark();
+            //var wookmark = new Wookmark('#allRecipes div');
+        });
+    </script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+}
+ @Styles.Render("~/Content/main.css")
+@Styles.Render("~/Content/normalize.css")
+<p>One-page app is here!</p>
+<div data-ng-app="recipesApp" id="recipesAppDiv">
+    <ng-view></ng-view>
+</div>

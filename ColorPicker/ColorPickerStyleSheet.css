@@ -1,0 +1,79 @@
+/*Style for the Color Picker*/
+#ardicleID 
+{
+background-color:Oldlace;
+width:530px;
+height:300px;
+Position:absolute;
+left:200px;
+border-style:solid;
+border-color:#D1D5D8;
+border-width:1px;
+
+}
+
+#myTable
+{
+border-color:black;
+border-spacing:15px;
+margin-left:20px;
+
+}
+td 
+{
+border-style:solid;
+border-color:#D1D5D8;
+border-width:1px;
+text-align:center;
+width:80px;
+height:60px;
+
+}
+#redBox,#greenBox, #blueBox
+{
+width:52px;
+height:20px;
+border-color:#D1D5D8;
+border-style:outset;
+font-family:Arial,Helvetica,sans-serif;
+}
+#header1Text, #header2Text
+{
+padding-left:35px;
+}
+#showColorBtn
+{
+  position:absolute;
+  left:330px;
+  top:120px;
+  border-radius:5px;
+}
+#clearBtn
+{
+position:absolute;
+  left:330px;
+  top:150px;
+  border-radius:5px;
+}
+#colorBar
+{
+width:400px;
+height:50px;
+position:absolute;
+bottom:55px;
+left:35px;
+background-color:#FFD4D6;
+}
+#myHex
+{
+position:absolute;
+bottom:5px;
+left:35px;
+display:inline;
+}
+#hexValue
+{
+position:absolute;
+bottom:5px;
+left:200px;
+}

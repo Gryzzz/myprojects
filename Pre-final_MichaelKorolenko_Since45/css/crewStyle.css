@@ -1,0 +1,63 @@
+﻿body {
+    background-color: #D3D3D3;
+    color:#191970;
+}
+
+#crew {
+    width: 50%;
+    min-width: 50%;
+    padding-left:3%;
+    font-size: 13px;
+    font-family: "Blokletters-Balpen";
+    float:left;
+}
+
+
+#crewImages
+{
+    float:right;
+    padding-top:10px;
+    padding-right:10px;
+}
+
+@font-face {
+    font-family: "After-Shok";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/After-Shok/After_Shok.ttf");
+}
+
+@font-face {
+    font-family: "Brushstroke-Plain";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/BRUSHSTP.ttf");
+}
+
+@font-face {
+    font-family: "Blokletters-Balpen";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/Blokletters-Balpen.ttf");
+}
+
+@font-face {
+    font-family: "Action-Man";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/Action_Man.ttf");
+}
+
+@font-face {
+    font-family: "Amatic-Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/Amatic-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Cinzel";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/Cinzel-Black.otf");
+}
